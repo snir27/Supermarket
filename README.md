@@ -8,8 +8,10 @@ In order to connect to your own MongoDB database, you will need to add your data
 connection information to the .env file in the root folder of the project. Specifically, you will need to 
 add a `MONGO_URI` variable with your database connection string in the following format:
 
-`MONGO_URI=mongodb+srv://<username>:<password>@mysupermarket.tswfylf.mongodb.net/<database name>?retryWrites=true&w=majority`
-Make sure to replace `<username>`, `<password>`, and `<database name>` with your own database credentials. This will allow the Supermarket project to connect to your own database.
+MONGO_URI=
+`mongodb+srv://<username>:<password>@mysupermarket.tswfylf.mongodb.net/<database name>?retryWrites=true&w=majority`
+Make sure to replace `<username>`, `<password>`, and `<database name>` with your own database credentials.
+This will allow the Supermarket project to connect to your own database.
 
 ## Running the project
 
