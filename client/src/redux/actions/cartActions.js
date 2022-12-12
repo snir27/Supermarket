@@ -45,5 +45,6 @@ export const sendCartDataToDB =
       },
     };
     await axios(config);
+    alert("Your order has been sent!")
   };
 

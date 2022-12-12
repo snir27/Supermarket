@@ -15,8 +15,7 @@ const NavBar = () => {
       {/* logo */}
       <div className="navbar__logo">
         <Link style={{ textDecoration: "none" }} to="/">
-          <img src={logo} style={{ height: "5vh" }} />
-          <h2>My Supermarket</h2>
+          <h1>Supermarket</h1>
         </Link>
       </div>
       {/* links */}
